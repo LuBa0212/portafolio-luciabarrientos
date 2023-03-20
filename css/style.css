@@ -30,19 +30,71 @@ background-color: var(--color-hueso);
 	
 }
 #bio h1{
-	font-size: 40px;
+	font-size: 50px;
 	color: #F0BB08;
 	text-align: left;
-	margin-bottom: 10%;
+	margin-bottom: 7%;
 }
 
 #bio h4{
-	font-size: 30px;
+	font-size: 25px;
 	text-align: left;
 }
 #bio p{
-	font-size: 20px;
+	font-size: 18px;
 	text-align: left;
+}
+
+#Servicios{
+	padding: 5%;
+	background-color: var(--color-hueso); 
+}
+
+#Servicios .card1, .card2, .card3, .card4{
+	background-color: var(--color-amarillo);
+	padding: 7%;
+}
+#Servicios h2{
+	font-size: 30px;
+	font-weight: 600 !important;
+	text-align: center;
+}
+#Servicios h3{
+	font-size: 20px;
+	font-weight: 400 !important;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+#Servicios h4{
+	font-weight: 600;
+}
+
+
+#contacto{
+	margin-top: 7%;
+	
+}
+#contacto h2{
+	text-align: center;
+	font-weight: 600;
+	
+}
+.btn-amarillo{
+	background-color: var(--color-amarillo);
+	color: #FFFFFF;
+	padding: 15px 30px;
+	border-radius: 5px;
+	text-transform: 12px;
+	font-weight: 700px;
+	letter-spacing: 1px;
+	margin-bottom: 7%;
+		
+		
+}
+.btn-amarillo:hover{
+	background-color:#FFFFFF;
+	color:#222222
 }
 footer {
   text-transform: none;
@@ -54,9 +106,39 @@ footer {
   align-content: center;
 }
 
-.footernav {
-  display: inline;
-  list-style-type: none;
-  padding: 25px;
-  border-width: 10px;
+
+
+#footer-copy{
+	background-color:#191919;
+	padding: 30px;
+	color: #58606b;
+	font-size: 14px;
+}
+
+#footer-copy i.lab{
+	background-color: #F0BB08;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 20px;
+}
+#footer-copy .la-facebook-f:hover{
+	background-color: #3b5998;
+	color: #FFFFFF;
+}
+
+#footer-copy .la-instagram:hover{
+	background-color: #dd4b39;
+	color: #FFFFFF;
+}
+#footer-copy p{
+	color:  var(--color-hueso);
+	text-align: left;
+}
+
+#Portafolio h2{
+	font-weight: 500;
+	
 }
